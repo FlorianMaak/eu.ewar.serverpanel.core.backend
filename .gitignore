@@ -10,10 +10,12 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
-/server-panel-core/resources
 /server-panel-core/target
 /.project
 /.settings
 /server-panel-core/.classpath
 /server-panel-core/.settings
 /test.html
+/server-panel-core/*.project
+/server-panel-core/bin/*.project
+/server-panel-core/bin
