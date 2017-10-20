@@ -13,6 +13,13 @@
 	<name>ServerPanel Core</name>
 
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<version.mvn.compiler>3.2</version.mvn.compiler>
+		<version.mvn.war.plugin>2.6</version.mvn.war.plugin>
+		<version.jersey>2.15</version.jersey>
+
+	</properties>
 
 	<dependencies>
 
@@ -23,7 +30,7 @@
 			<version>1.3.1</version>
 		</dependency>
 
-		
+
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
@@ -64,6 +71,26 @@
 			<version>5.2.11.Final</version>
 		</dependency>
 
+
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>2.7</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet-core</artifactId>
+			<version>2.7</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-jetty-http</artifactId>
+			<version>2.7</version>
+		</dependency>
 	</dependencies>
 
 	<build>
